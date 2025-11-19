@@ -1,8 +1,5 @@
-﻿# Project Structure Example
+Demo edit for assignment.
 
- - Feature 1
-- Feature 2
-- Feature 3
 
 
 
