@@ -1,4 +1,4 @@
-name: Hello GitHub Actions
+name: Show Date and Time
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  say-hello:
+  show-datetime:
     runs-on: ubuntu-latest
     steps:
-      - name: Print Hello
-        run: echo "Hello GitHub Actions"
+      - name: Print current date and time
+        run: echo "Current date and time: $(date)"
